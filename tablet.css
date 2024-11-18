@@ -1,0 +1,323 @@
+@media only screen and (max-width: 800px) {
+
+    .wrapper{
+        margin: auto 24px;
+    }
+
+   .heroSection{
+    flex-direction: column;
+    margin:0 auto;
+   }
+
+   
+
+
+   .heroSection .left{
+    text-align: center;
+    padding-top: 50px;
+   }
+
+   header{
+    height: 1000px;
+    width: 100%;
+   }
+
+   .column{
+    padding: 20px 0;
+   }
+
+   .right form{
+    margin-top: 42px;
+   }
+
+   .column.para{
+    flex: 1;
+   }
+
+   .responsive-section{
+    margin-bottom: 50px;
+   }
+
+   .logo{
+    align-self: flex-start;
+    margin-top: 12px;
+   }
+
+   .arrow{
+    display: none;
+   }
+
+   li a{
+    margin: 0px 10px;
+   }
+
+   nav ul{
+    justify-content: flex-end;
+    gap: 20px;
+   }
+
+   .divider{
+    display: none;
+   }
+
+   .special{
+    display: block;
+
+   }
+
+   .divider{
+    display: none;
+   }
+
+
+   .secondSection{
+    flex-wrap: wrap;
+   }
+
+   .paras{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+   }
+
+   .para{
+
+    width: 45vw;
+   }
+
+   .slide{
+    width: 100vw;
+   }
+
+   .testimonial-content {
+    width: 75%;
+    height: 269px;
+  }
+
+  .testimonial-text{
+    font-size: 13px;
+  }
+
+  .testimonial-name{
+    font-size: 17px;
+  }
+
+  .quoteicon {
+    position: absolute;
+    top: 27px;
+    right: 45px;
+    width: 42px;
+}
+
+
+  .testimonial-image, .testimonial-image img{
+    width: 197px;
+    height: 197px;
+  }
+
+  .testimonial-content{
+    height: 197px;
+  }
+
+
+   .speciallastpara{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+   }
+
+   .speciallastpara > *{
+        flex: 1;
+   }
+
+   .divBtn{
+    flex: 1;
+    height: fit-content;
+    align-self: center ;
+   }
+
+   .cardImage img{
+    width: 28vw;
+}
+
+.menuActive{
+    left: 0;
+}
+
+.mobileNav{
+    left: 110vw;
+}
+    .sectionHeading{
+        font-size: 25px;
+    }
+
+   .slider-container{
+    margin: 100px 34px;
+    margin-bottom: 50px;
+   }
+
+   .lastpara{
+    flex: 1 1 100%;
+    box-sizing: border-box;
+    padding: 10px;
+
+   }
+
+   .hamburger{
+    display: none;
+   }
+
+   .column.para{
+    padding: 0px;
+   }
+
+   .section4 .wrapper{
+    margin: 60px auto;
+   }
+
+   .section4{
+    margin-bottom: 100px;
+   }
+
+   .secondSection{
+    height: fit-content;
+   }
+
+   /* .cardImage.specialImage{
+    display: none;
+   } */
+
+
+   .innerSection5{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    height: fit-content;
+    position: relative;
+   }
+
+   .innerSection5 .left{
+    flex: 1;
+    z-index: 11;
+   }
+
+   .innerSection5 .right{
+    flex: 1;
+   }
+
+   .points{
+    margin: 36px 0px;
+   }
+
+   .firstBg{
+    width: 100vw;
+    transform: scale(1.2) rotate(90deg);
+   }
+
+   .secondBg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    transform: scale(1.2) rotate(90deg);
+   }
+
+   .sectionContent{
+    position: absolute;
+    top: 65px;
+    left: 90px;
+    margin-right: 70px;
+   }
+
+   .thumbnail{
+    height: 50%;
+    overflow: hidden;
+
+   }
+
+   .thumbnail img{
+    width: 100vw;
+   }
+
+   .innerSection5 .right{
+    position: relative;
+   }
+
+   .playbutton{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    z-index: 12;
+    transform: translateX(-50%);
+   }
+
+   .innerSection5 .logo img{
+        position: absolute;
+        bottom: 47px;
+        left: 36%;
+   }
+
+   .playbutton {
+    position: absolute;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.playbutton .play-icon {
+    transition: opacity 0.3s;
+}
+
+.form-group input{
+    position: relative;
+}
+
+
+
+
+.playbutton:hover .play-icon, .playbutton:active .play-icon {
+    content: url("images/play-hover.png");
+}
+
+.video-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.video-content {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-content iframe {
+    width: 100%;
+    height: 450px;
+}
+
+
+
+
+
+   footer .wrapper{
+    flex-direction: column;
+   }
+
+} 
+
+
+
+.video-content{
+    background: var(--light);
+}
